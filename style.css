@@ -1,0 +1,48 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.tab{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    border-radius:30px;
+    background-color: rgb(175, 168, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab::before{
+    content:"";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(240, 240, 60);
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.switch-on {
+    background-color:#252311;
+    color: #fff;
+  }
+
+.block{
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#block-1{
+    background-color: yellow;
+}
+#block-2{
+    background-color: blue;
+    display: none;
+}
+#block-3{
+    background-color: green;
+    display: none;
+}
