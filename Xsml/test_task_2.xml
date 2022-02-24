@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <users>
+        <user id="1" department="1">
+            <name>Иванов Иван Иванович</name>
+            <phone>+7 (111) 111-11-11</phone>
+            <email>test1@test.test</email>
+        </user>
+        <user id="2" department="1">
+            <name>Иванов Петр Иванович</name>
+            <phone>+7 (111) 111-11-22</phone>
+            <email>test2@test.test</email>
+        </user>
+        <user id="3" department="2">
+            <name>Петров Петр Петрович</name>
+            <phone>+7 (111) 111-11-33</phone>
+            <email>test3@test.test</email>
+        </user>
+        <user id="4" department="3">
+            <name>Петров Сидор Петрович</name>
+            <phone>+7 (111) 111-11-44</phone>
+            <email>test4@test.test</email>
+        </user>
+        <user id="5" department="2">
+            <name>Сидоров Сидор Петрович</name>
+            <phone>+7 (111) 111-11-55</phone>
+            <email>test5@test.test</email>
+        </user>
+    </users>
+    <departments>
+        <department id="1" name="IT"/>
+        <department id="2" name="Service"/>
+        <department id="3" name="Finance"/>
+    </departments>
+    <hours>
+        <hour user="1" hours="10" />
+        <hour user="4" hours="8" />
+        <hour user="2" hours="7" />
+        <hour user="5" hours="5" />
+        <hour user="5" hours="13" />
+        <hour user="4" hours="11" />
+        <hour user="2" hours="2" />
+        <hour user="3" hours="3" />
+        <hour user="4" hours="1" />
+        <hour user="2" hours="1" />
+        <hour user="3" hours="6" />
+        <hour user="1" hours="9" />
+    </hours>
+</root>
