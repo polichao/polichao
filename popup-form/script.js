@@ -8,7 +8,7 @@ document.addEventListener('mouseleave', function(e){
 function isNameValid(name){
     const name_exp = /[\p{L}\s]/gu;
     let name_match = name.match(name_exp);
-    if ((name_match !== null) && (name_match.length === name.length)){
+    if ((name_match !== null) && (name_match.length === name.length) && (name.length > 1)){
         return true;}
     else{return false;}
 }
@@ -16,7 +16,7 @@ function isNameValid(name){
 function isTelValid(tel){
     const tel_exp = /[\+\-\d\s]/g;
     let tel_match = tel.match(tel_exp);
-    if ((tel_match !== null) && (tel_match.length == tel.length)){
+    if ((tel_match !== null) && (tel_match.length == tel.length) && (tel_match.length >= 5)){
         return true;
     }
     else{return false}
